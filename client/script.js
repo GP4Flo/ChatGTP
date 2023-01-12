@@ -89,7 +89,7 @@ const handleSubmit = async (e) =>{
 
   // fetching data from server  -> bot's response
 
-  const response = await fetch('https://chat-5hx2fdobh-gp4flo.vercel.app/server', {
+  const response = await fetch('https://chat-5hx2fdobh-gp4flo.vercel.app/server/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
